@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Prediction Result</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body class="result-page">
+  <div class="result-container">
+    <h1>Prediction Result</h1>
+    <p id="result">{{ prediction_text }}</p>
+    <a href="/" class="back-button">Try Again</a>
+  </div>
+</body>
+</html>

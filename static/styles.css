@@ -1,0 +1,138 @@
+/* Existing Styles */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #f0f4f8; /* Light greyish-blue */
+  color: #2c3e50; /* Dark blue-gray */
+}
+
+.header {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #34495e; /* Dark slate */
+  color: #ecf0f1; /* Light grey */
+  padding: 12px 0;
+  position: sticky;
+  top: 0;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.header img {
+  height: 40px;
+  margin-right: 12px;
+}
+
+.header h1 {
+  font-size: 1.6rem;
+  font-weight: bold;
+}
+
+.container {
+  max-width: 450px;
+  background-color: #ffffff;
+  padding: 25px;
+  border-radius: 8px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+  margin-top: 25px;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.input-group {
+  margin-bottom: 15px;
+}
+
+label {
+  font-weight: bold;
+  color: #34495e; /* Dark slate */
+}
+
+input[type="number"] {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #bdc3c7; /* Light grey border */
+  border-radius: 5px;
+  background-color: #ecf0f1; /* Very light grey */
+}
+
+button {
+  width: 100%;
+  padding: 12px;
+  background-color: #3498db; /* Soft blue */
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: #2980b9; /* Darker blue */
+}
+
+#result {
+  margin-top: 20px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 18px;
+  color: #34495e;
+}
+
+/* New Styles for result.html */
+body.result-page {
+    background: url('/static/HD_image.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: #ffffff; /* White text for contrast */
+}
+
+
+.result-container {
+  text-align: center;
+  padding: 30px;
+  background: rgba(0, 0, 0, 0.6); /* Translucent black background */
+  margin: 10% auto;
+  width: 60%;
+  border-radius: 12px;
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.4);
+}
+
+.result-container h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  color: #f8f9fa; /* Light grey text */
+}
+
+.result-container #result {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+  color: #f39c12; /* Warm yellow for emphasis */
+}
+
+.result-container .back-button {
+  text-decoration: none;
+  color: #ffffff;
+  background-color: #e74c3c; /* Soft red */
+  padding: 12px 20px;
+  border-radius: 8px;
+  font-size: 1rem;
+  transition: background-color 0.3s ease;
+}
+
+.result-container .back-button:hover {
+  background-color: #c0392b; /* Darker red */
+}
+  
